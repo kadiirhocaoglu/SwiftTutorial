@@ -1,5 +1,5 @@
 import UIKit
-
+/*
 //Array (Same kind of)
 var array: [String] = ["Array1", "Array2"]
 var array2 = [21,32,43,54,65,76]
@@ -72,6 +72,27 @@ for (index, eleman) in array2.enumerated()
     }
  }
  */
+ */
 
+//MARK: - Set
+ 
+var AllPlanet: Set<String> = ["Merkür", "Venüs", "Dünya", "Mars", "Jüpiter", "Satürn", "Uranüs", "Neptün"]
+var LikeEarthPlanet: Set<String> = ["Merkür", "Venüs", "Mars"]
 
+AllPlanet.isSubset(of: LikeEarthPlanet)
+AllPlanet.isSuperset(of: LikeEarthPlanet)
+LikeEarthPlanet.isSubset(of: AllPlanet)
+LikeEarthPlanet.isSuperset(of: AllPlanet)
 
+AllPlanet.intersection(LikeEarthPlanet)
+LikeEarthPlanet.intersection(AllPlanet)
+AllPlanet.union(LikeEarthPlanet)
+LikeEarthPlanet.union(AllPlanet)
+
+AllPlanet.subtracting(LikeEarthPlanet)
+print(AllPlanet)
+print(LikeEarthPlanet)
+//AllPlanet.subtract(LikeEarthPlanet )
+LikeEarthPlanet.subtract(AllPlanet)
+print(AllPlanet)
+print(LikeEarthPlanet)
