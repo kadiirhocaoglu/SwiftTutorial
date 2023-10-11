@@ -62,3 +62,6 @@ let sumNumbers = numbers.reduce(0) { (partialResult, number) -> Int in
 }
 
 print(sumNumbers)
+
+
+var listk: [1,0,4,3,2,5,6]

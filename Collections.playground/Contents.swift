@@ -73,7 +73,7 @@ for (index, eleman) in array2.enumerated()
  }
  */
  */
-
+/*
 //MARK: - Set
  
 var AllPlanet: Set<String> = ["Merkür", "Venüs", "Dünya", "Mars", "Jüpiter", "Satürn", "Uranüs", "Neptün"]
@@ -96,3 +96,14 @@ print(LikeEarthPlanet)
 LikeEarthPlanet.subtract(AllPlanet)
 print(AllPlanet)
 print(LikeEarthPlanet)
+
+
+*/
+
+var lst: [Int] = [2,34,5,64,32]
+var i = 0
+
+for i in (0 ..< lst.count) {
+    print(i)
+}
+

@@ -19,3 +19,9 @@ let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
     }
 }
 task.resume()
+// Singleton--
+
+class APICaller{
+    let shared = APICaller()
+    private init(){}
+}
